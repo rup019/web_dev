@@ -1,22 +1,9 @@
-/*body{
-    background: #447487;
-    background: linear-gradient(90deg, rgba(68, 116, 135, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     max-width: 720px; margin: 0 auto; padding: 24px; 
-}
-     */
-     
+
+
 *{
     margin:0;
     padding:0;
 }
-/*.header{
-    text-align: center;
-    padding: 20px;
-    padding-right: 100px;
-    margin: 5px;
-}*/
 
 .top-nav-container {
     display:flex;
@@ -43,8 +30,21 @@
 }
 
 
-.about_me{
-    padding: 20px;
+.content{
+    width: 90%;
+    margin: 30px auto;
 }
 
+section{
+    padding: 20px 0px;
+    
+}
 
+h2{
+    margin-bottom: 10px;
+    
+}
+
+p,li{
+    font-size: larger;
+}
