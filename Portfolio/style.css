@@ -48,3 +48,14 @@ h2{
 p,li{
     font-size: larger;
 }
+
+input,textarea{
+    padding:5px;
+    margin:5px;
+
+}
+
+textarea {
+    width: 250px;
+    height: 80px;
+}
