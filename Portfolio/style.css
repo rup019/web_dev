@@ -1,4 +1,7 @@
-
+body{
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
 
 *{
     margin:0;
@@ -10,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px; /* up/down  left/right */
+    background-color: black;
 }
 
 .left,
@@ -20,6 +24,7 @@
 
 .centre{
     text-align: center;
+    color: white;
 }
 
 .nv_bar{
@@ -32,7 +37,8 @@
 
 .content{
     width: 90%;
-    margin: 30px auto;
+    padding: 30px auto;
+    margin-left:50px;
 }
 
 section{
@@ -40,9 +46,10 @@ section{
     
 }
 
+
+
 h2{
     margin-bottom: 10px;
-    
 }
 
 p,li{
@@ -58,4 +65,18 @@ input,textarea{
 textarea {
     width: 250px;
     height: 80px;
+    margin-left: 15px;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-img {
+  height: 50px;       /* Set a fixed height that fits your header */
+  width: auto;        /* Automatically adjusts the width to maintain correct proportions */
+  display: block;     /* Removes extra whitespace below the image */
 }
